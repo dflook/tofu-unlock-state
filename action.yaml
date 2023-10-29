@@ -27,7 +27,7 @@ runs:
   env:
     OPENTOFU: true
   using: docker
-  image: docker://danielflook/terraform-github-actions@sha256:2fa1462c0d719834b0dd18acf08914e306405b8d8538adb1b4db8ef940dfe6ba
+  image: docker://ghcr.io/dflook/terraform-github-actions@sha256:2fa1462c0d719834b0dd18acf08914e306405b8d8538adb1b4db8ef940dfe6ba
   entrypoint: /entrypoints/unlock-state.sh
 
 branding:
